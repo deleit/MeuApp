@@ -1,8 +1,9 @@
 using MeuApp.ContentContext.Enums;
+using MeuApp.SharedContext;
 
 namespace MeuApp.ContentContext
 {
-    public class Lecture
+    public class Lecture : Base
     {
         public int Order { get; set; }
         public string Title { get; set; }

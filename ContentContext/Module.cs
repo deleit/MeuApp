@@ -1,8 +1,9 @@
 using System.Collections.Generic;
+using MeuApp.SharedContext;
 
 namespace MeuApp.ContentContext
 {
-    public class Module
+    public class Module : Base
     {
         public Module()
         {
